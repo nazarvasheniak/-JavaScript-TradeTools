@@ -1,0 +1,43 @@
+.auth-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    .auth-form {
+      width: 265px;
+
+      .form-title {
+        text-align: center;
+
+        .title {
+          padding: 30px 20px;
+        }
+      }
+
+      .form-body {
+        .form-group {
+          margin-bottom: 20px;
+        }
+
+        input {
+          height: 42px;
+          border-radius: 0;
+        }
+
+        .btn.btn-success {
+          padding: 10px 12px;
+          border-radius: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .title {
+    color: white;
+    margin:0;
+    padding:50px 20px;
+  }

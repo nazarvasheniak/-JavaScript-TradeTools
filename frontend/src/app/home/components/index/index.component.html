@@ -1,0 +1,12 @@
+<div class="container">
+    <div>
+        <div>
+            lastUpdateId
+            {{ depth.lastUpdateId }}
+        </div>
+        <h2>Asks:</h2>
+        <ul>
+            <li *ngFor="let item of depth.asks">{{ item[0] }}</li>
+        </ul>
+    </div>
+</div>
